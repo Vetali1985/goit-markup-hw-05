@@ -16,35 +16,41 @@
 <body>
     <header class="header">
         <div class="conteiner nav-head">
-            <a href="https://www.google.com/"><span class="web-logo">Web</span><span class="studio-logo">Studio</span></a>
-            <nav>
+            <nav class="nav-header">
+                <a class="header-links" href="https://www.google.com/"><span class="web-logo">Web</span><span
+                        class="studio-logo">Studio</span></a>
                 <ul class="site-nav list">
-                    <li class="item"> <a href="./index.html" class="link ">Студия</a></li>
-                    <li class="item"> <a href="#" class="link current">Портфолио</a></li>
-                    <li class="item"> <a href="https://www.google.com/" class="link">Контакты</a></li>
+                    <li class="item"> <a href="./index.html" class="link link-nav">Студия</a></li>
+                    <li class="item"> <a href="#" class="link current link-nav">Портфолио</a></li>
+                    <li class="item"> <a href="https://www.google.com/" class="link link-nav">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="auth-nav list">
+            <ul class="auth-nav list ">
+    
                 <li class="item">
-                    <svg class="icon-header-mail" width="10px" height="16px">
-                        <use href="./icon/sprite.svg#icon-mail">
     
-                        </use>
-                    </svg>
+                    <a href="mailto:info@devstudio.com" class="link icon-header-mail">
     
-                    <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                        <svg class="icon-header" width="16px" height="12px">
+                            <use href="./icon/sprite.svg#icon-mail">
+    
+                            </use>
+                        </svg>
+                        info@devstudio.com</a>
     
                 </li>
+    
                 <li class="item">
-                    <svg class="icon-header" width="10px" height="16px">
-                        <use href="./icon/sprite.svg#icon-smartphone">
     
-                        </use>
-                    </svg>
-                    <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                    <a href="tel:+380961111111" class="link icon-header-mail">
+                        <svg class="icon-header" width="10px" height="16px">
+                            <use href="./icon/sprite.svg#icon-smartphone">
+    
+                            </use>
+                        </svg>
+                        +38 096 111 11 11</a>
+    
                 </li>
-    
-    
             </ul>
         </div>
     </header>
@@ -63,8 +69,9 @@
             </ul>
         <!--progects-->
             <ul class="advantage list">
-                <li class="flex-element-work">
-                <a href=""><img src="./images/tech-crack.jpg" width="370" alt="Laptop"> 
+                <li class="flex-element-work  ">
+                    <div class="absolt">
+                <a class="flex-work-links" class="" href=""><img  src="./images/tech-crack.jpg" width="370" alt="Laptop"></div>
                 <div class="card-text">
                     <h2 class="section-title-progects">Технокряк</h2>
                     <p class="section-text-progects ">Веб-сайт</p>
@@ -72,56 +79,75 @@
                     </a>
                 </li>
                 <li class="flex-element-work">
-                    <a href=""><img src="./images/poster.jpg" width="370" alt="Basketball team poster ">
+                    <div class="absolt">
+                    <a class="flex-work-links" href=""><img src="./images/poster.jpg" width="370" alt="Basketball team poster "></div>
                 <div class="card-text">
                         <h2 class="section-title-progects">Постер New Orlean vs Golden Star</h2>
                     <p class="section-text-progects">Дизайн</p>
                 </div></a>
                 </li>
+                
                 <li class="flex-element-work">
-                    <a href=""><img src="./images/restoran.jpg" width="370" alt="restoran-app">
+                    <div class="absolt">
+                    <a class="flex-work-links" href=""><img src="./images/restoran.jpg" width="370" alt="restoran-app"></div>
                 <div class="card-text">
                         <h2 class="section-title-progects">Ресторан Seafood</h2>
                     <p class="section-text-progects">Приложение</p>
                 </div></a>
                 </li>
+                
                 <li class="flex-element-work">
-                    <a href=""><img src="./images/progect-prime.jpg" width="370" alt="headphones">
+                    <div class="absolt">
+                    <a class="flex-work-links" href=""><img src="./images/progect-prime.jpg" width="370" alt="headphones"></div>
                     <div class="card-text">
                         <h2 class="section-title-progects">Проект Prime</h2>
                     <p class="section-text-progects">Маркетинг</p>
                 </div></a>
                 </li>
+                
                 <li class="flex-element-work">
-                    <a href=""><img src="./images/progect-boxes.jpg" width="370" alt="Boxes">
-                    <div class="card-text">
+                    <div class="absolt">
+                        <p class="abs-text" >Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит
+                            посетителю получить
+                            исчерпывающие сведения о компании или частном лице.</p>
+                    <a class="flex-work-links" href=""><img src="./images/progect-boxes.jpg" width="370" alt="Boxes"></div>
+                    
+                        <div class="card-text">
                         <h2 class="section-title-progects">Проект Boxes</h2>
                     <p class="section-text-progects">Приложение</p>
                 </div></a>
                 </li>
+                
                 <li class="flex-element-work">
-                    <a href=""><img src="./images/inspiration.jpg" width="370" alt="Imac">
+                    <div class="absolt">
+                    <a class="flex-work-links" href=""><img src="./images/inspiration.jpg" width="370" alt="Imac"></div>
                     <div class="card-text">
                         <h2 class="section-title-progects">Inspiration has no Borders</h2>
                     <p class="section-text-progects">Веб-сайт</p>
                 </div></a>
                 </li>
+                
                 <li class="flex-element-work">
-                    <a href=""><img src="./images/edition-limited.jpg" width="370" alt="Book">
+                    <div class="absolt">
+                    <a class="flex-work-links" href=""><img src="./images/edition-limited.jpg" width="370" alt="Book"></div>
                     <div class="card-text">
                         <h2 class="section-title-progects">Издание Limited Edition</h2>
                     <p class="section-text-progects">Дизайн</p>
                 </div></a>
                 </li>
+                
                 <li class="flex-element-work">
-                    <a href=""><img src="./images/project-lab.jpg" width="370" alt="Tag">
+                    <div class="absolt">
+                    <a class="flex-work-links" href=""><img src="./images/project-lab.jpg" width="370" alt="Tag"></div>
                     <div class="card-text">
                         <h2 class="section-title-progects">Проект LAB</h2>
                     <p class="section-text-progects">Маркетинг</p>
                 </div></a>
                 </li>
+                
                 <li class="flex-element-work">
-                    <a href=""><img src="./images/gro-bes.jpg" width="370" alt="Lapto and hands">
+                    <div class="absolt">
+                    <a class="flex-work-links" href=""><img src="./images/gro-bes.jpg" width="370" alt="Lapto and hands"></div>
                     <div class="card-text">
                         <h2 class="section-title-progects">Growing Business</h2>
                     <p class="section-text-progects">Приложение</p>
@@ -132,41 +158,54 @@
             </div>
             </section>
         </main>
-<  <footer class="footer-bg">
-        <div class="conteiner">
+< <footer class="footer-bg">
+        <div class="conteiner footer-conteiner">
+            <div class="footer-bg-flex">   
+            <a href="https://www.google.com/"> <span class="web-logo-fr">Web</span><span
+                    class="studio-logo-footer">Studio</span></a>
+            <address class="footer-adress">
+                <ul class="footer-list list">
+                    <li>
+                        <p class="footer-list-adress">г. Киев, пр-т Леси Украинки, 26</p>
+                    </li>
+                    <li><a href="mailto:info@example.com" class="footer-list-contacts">info@example.com</a> </li>
+                    <li><a href="tel:+380991111111" class="footer-list-contacts tel">+38 099 111 11 11</a> </li>
+                </ul>
+</div>
+            </address>
+        
+        <div class="social-footer">
+             <h2 class="title-footer-bg">Присоединяйтесь</h2>
             
-    <a href="https://www.google.com/"> <span class="web-logo-fr">Web</span><span class="studio-logo-footer">Studio</span></a>
-        <address class="footer-adress">
-            <ul class="footer-list list">
-            <li><p class="footer-list-adress">г. Киев, пр-т Леси Украинки, 26</p> </li> 
-            <li><a href="mailto:info@example.com" class="footer-list-contacts">info@example.com</a> </li>   
-            <li><a href="tel:+380991111111" class="footer-list-contacts tel">+38 099 111 11 11</a> </li>
-        </ul>
-        <h2 class="title-footer">Присоединяйтесь</h2>
-        <ul class=" footer-social list">
-            <li class="footer-social">
-                <svg class="footer-icon" width="44px" height="44px">
-                <use href="./icon/sprite.svg#icon-insta-footer">
-                </use>
-            </svg></li>
-            <li class="footer-social">
-                <svg class="footer-icon" width="44px" height="44px">
-                <use href="./icon/sprite.svg#icon-twiter-footer">
-                </use>
-            </svg></li>
-            <li class="footer-social">
-                <svg class="footer-icon" width="44px" height="44px">
-                <use href="./icon/sprite.svg#icon-facebook-footer">
-                </use>
-            </svg></li>
-            <li class="footer-social">
-                <svg class="footer-icon" width="44px" height="44px">
-                <use href="./icon/sprite.svg#icon-linkid-footer">
-                </use>
-            </svg></li>
-        </ul>
-    </address>
+            <ul class=" footer-social list">
+                <li class="footer-social-icon">
+                    <svg class="footer-icon" width="44px" height="44px">
+                        <use href="./icon/sprite.svg#icon-insta-footer">
+                        </use>
+                    </svg>
+                </li>
+                <li class="footer-social-icon">
+                    <svg class="footer-icon" width="44px" height="44px">
+                        <use href="./icon/sprite.svg#icon-twiter-footer">
+                        </use>
+                    </svg>
+                </li>
+                <li class="footer-social-icon">
+                    <svg class="footer-icon" width="44px" height="44px">
+                        <use href="./icon/sprite.svg#icon-facebook-footer">
+                        </use>
+                    </svg>
+                </li>
+                <li class="footer-social-icon">
+                    <svg class="footer-icon" width="44px" height="44px">
+                        <use href="./icon/sprite.svg#icon-linkid-footer">
+                        </use>
+                    </svg>
+                </li>
+            </ul>
+        </div>
 </div>
     </footer>
+    
 </body>
 </html>
